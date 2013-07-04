@@ -1,8 +1,7 @@
 -- DROP DATABASE address_book;
 -- CREATE DATABASE address_book;
 
-DROP TABLE contacts
-CREATE TABLE contacts
+CREATE TABLE my_contacts
 (
   first VARCHAR(25),
   last  VARCHAR(25),

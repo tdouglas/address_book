@@ -1,4 +1,4 @@
-
+<!doctype = html>
 
 <head>
   <style media="screen" type="text/css">
@@ -18,6 +18,7 @@ body {
   background-color: #b7d1c4;
   font-family: sans-serif;
   padding: 30px;
+  margin: 0 auto;
 }
 
 h {
@@ -31,13 +32,12 @@ h {
 
 <body>
 
-<center>
-
 <form action="/new_contacts/" method="post">
   <button>Create New</button><br>
 
   Name: <input type="text" name="name">
  <br>
+ <!-- <input type="text" placeholder="last name" name="last" autofocus max length="20" -->
  <br>
   Phone number: <input type="text" name="phone_number">
  <br>
@@ -50,7 +50,8 @@ h {
   <br>
   <br>
   <br>
-  <form action="/see_contacts/" method="get">
+</form>
+<form action="/see_contacts/" method="get">
   <button>Search Contacts</button><br>
   Name: <input type="text" name="name">
  <br>
@@ -58,14 +59,13 @@ h {
   Phone number: <input type="text" name="phone_number">
  <br>
  <br>
-  Email address: <input type="text" name="e-mail_address">
+  Email address: <input type="text" name="email_address">
   <br>
   <br>
 </form>
 
 
 
-</center>
 
   <br>
   <br>
@@ -73,5 +73,6 @@ h {
 
 </body>
 
+</html>
 
 

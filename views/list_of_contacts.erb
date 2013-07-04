@@ -1,6 +1,15 @@
-<center>
 <h2>Well aren't we popular!</h2>
-</center>
 
-<%=@insert_some_fields%>
-<%=@name%>
+<%@contacts.each do |contact|%>
+
+<ul>
+  <%=contact["first"]%>
+  <%=contact["last"]%>
+  <%=contact["phone"]%>
+  <%=contact["email"]%>
+</a>
+
+</ul>
+<%end%>
+
+
